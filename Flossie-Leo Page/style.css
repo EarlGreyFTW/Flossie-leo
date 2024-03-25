@@ -1,0 +1,51 @@
+body{
+	word-wrap: break-word;
+	align: center;
+	text-align: center;
+	font-size: 35px;
+	font-family: Verdana;
+	background-image: url("background.png");
+}
+
+#leo{
+	float: left;
+	margin-left: 20px;
+}
+
+#ict{
+	float: right;
+	margin-right: 20px;
+}
+
+.button{
+	color: #2d8300;
+	font-weight: bold;
+	box-shadow: 10px 10px 5px 12px lightgrey;
+	background-color: white;
+	position: relative;
+	border: 12px solid black;
+	border-radius: 12px;
+	width: 30%;
+	height: 45%;
+	padding: 100px;
+}
+
+#back{
+	position: absolute;
+	right: 5%;
+	color: #2d8300;
+	top: 5%;
+	z-index: 50;
+	font-size: 50px;
+	font-weight: bold;
+	text-decoration: none;
+	border: 6px solid black;
+	border-radius: 40px;
+	background-color: white;
+	width: 70px;
+	height: 70px;
+}
+
+iframe{
+	z-index: 10;
+}
